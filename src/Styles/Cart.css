@@ -1,0 +1,46 @@
+.cartList-container {
+  display: grid;
+  grid-template-columns: 20em;
+  grid-gap: 2em;
+  justify-content: center;
+  margin: 3em;
+}
+
+.cart-item {
+  background-color: white;
+  border-radius: 0.5em;
+  padding: 1em;
+}
+
+.empty-cart {
+  text-align: center;
+}
+
+.cartInfo-container {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.check-out {
+  text-decoration: none;
+  border-radius: 0.2em;
+  padding: 0.4em;
+  background-color: rgb(206, 206, 206);
+  color: white;
+  text-align: center;
+}
+
+.remove-button {
+  border-radius: 0.2em;
+  border: none;
+}
+
+.image-container {
+  border-radius: 0;
+}
+
+@media only screen and (min-width: 800px) {
+  .cartList-container {
+    grid-template-columns: 20em 20em;
+  }
+}

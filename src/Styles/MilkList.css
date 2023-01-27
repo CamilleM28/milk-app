@@ -1,0 +1,58 @@
+.Filtering {
+  display: flex;
+  justify-content: space-around;
+  margin: 3em 10em;
+}
+
+.search {
+  border-radius: 0.3em;
+  border: none;
+}
+
+.dropdown-content {
+  position: absolute;
+  width: 10em;
+  background: white;
+  padding-top: 2em;
+  margin-top: -1.7em;
+  border-radius: 0.3em;
+  box-shadow: 0 0.5em 1em 0 rgb(245, 202, 211), 0 0.5em 1em 0 rgb(245, 211, 215);
+}
+
+.open-dropdown {
+  border: none;
+  color: gray;
+  background: none;
+
+  position: relative;
+  z-index: 1;
+  font-size: 1.1em;
+}
+
+.milk-types {
+  margin: 0.4em;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 20em;
+  margin: 2em;
+  grid-gap: 2em;
+  justify-content: center;
+}
+
+.total-products {
+  text-align: center;
+}
+
+@media only screen and (min-width: 690px) {
+  .list {
+    grid-template-columns: 20em 20em;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .list {
+    grid-template-columns: 20em 20em 20em;
+  }
+}

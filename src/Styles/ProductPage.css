@@ -1,0 +1,28 @@
+.product-container {
+  display: grid;
+  grid-template-columns: 14em 14em;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7em;
+  grid-gap: 1em;
+}
+
+.image {
+  background-color: white;
+  text-align: center;
+  padding: 4em 0;
+}
+
+.cart-button {
+  background-color: rgb(207, 207, 207);
+  border: none;
+  border-radius: 0.2em;
+  padding: 0.5em;
+  margin-top: 2em;
+}
+
+.back-button {
+  text-decoration: none;
+  color: black;
+}

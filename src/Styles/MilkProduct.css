@@ -1,0 +1,28 @@
+.product {
+  text-align: center;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 0.5em;
+  box-shadow: 0 0.5em 1em 0 rgb(245, 202, 211), 0 0.5em 1em 0 rgb(245, 211, 215);
+}
+
+.image-container {
+  width: 1fr;
+  background-color: rgb(243, 243, 243);
+  padding: 2em;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+.milk-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  color: grey;
+}
+
+.milk-name {
+  padding: 1em;
+  text-align: left;
+  color: black;
+}
